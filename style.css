@@ -1,0 +1,221 @@
+ /* Navigaton bar start */
+
+
+ .header .logo {
+   font-size: 25px;
+   font-weight: bolder;
+   color: black;
+ }
+
+ .link li a {
+   font-size: 20px;
+   padding-left: 15px !important;
+ }
+
+ .link li a:hover {
+  font-size: 21px;
+   color: rgb(250, 74, 4);
+   letter-spacing: .1rem;
+ }
+
+ /* Navigaton bar End */
+
+ /* button start */
+ .button {
+   margin-top: 1rem;
+   display: inline-block;
+   background-color: rgb(151, 205, 63);
+   color: white;
+   font-size: 1.3rem;
+   cursor: pointer;
+   padding: 0.7rem 2rem;
+   border: none;
+   border-radius: 7px;
+ }
+
+ .button:hover {
+   letter-spacing: 0.15rem;
+   
+   background-color: rgb(113, 179, 6);
+   color: black;
+ }
+
+ /* button End */
+
+ /* Slider start */
+
+.outstanding{
+color: white;
+margin-bottom: 350px;
+}
+
+
+.slider-image{
+height: 90vh !important;
+
+}
+
+
+@media(max-width: 768px){
+  .slider-image{
+    min-height: 30vh !important;
+  }
+  } 
+
+ /* Slider End */
+
+
+ /* About Start*/
+
+.about-heading{
+  color: rgb(151, 205, 63);
+}
+
+ /* About End*/
+
+/* Food section start */
+
+.food-heading{
+  color: rgb(151, 205, 63);
+}
+
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+/* Food section End */
+
+/* Footer section Start */
+
+.contatUsHeading{
+  
+    color: rgb(151, 205, 63);
+}
+
+.footerIcons{
+  color: rgb(151, 205, 63); 
+  cursor: pointer;
+}
+
+.footerIcons:hover{
+  font-size: 43px!important;
+   color: rgb(113, 179, 6);
+}
+
+/* Footer section end */
+
+/* signUp section start */
+
+.main{
+background-image: url("https://image.shutterstock.com/z/stock-photo-pastel-ice-cream-in-waffle-cones-bright-background-copy-space-1704522226.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.inner-div{
+  background-color: #fff;
+  padding: 25px 45px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 7px rgba(0, 0, 0, 0.6);
+
+}
+
+/* signUp section start */
+
+.btnLogin {
+  display: inline-block;
+  background-color: rgb(235, 247, 216);
+  color: black;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btnLogin:hover{
+
+    letter-spacing: .2rem;
+    background-color: rgb(181, 196, 157);
+    color: black;
+
+}
+
+#loader-container{
+  position: fixed;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#loader-container img{
+   height: 20rem ;
+}
+
+/* scroll section start */
+
+.scroll-to-top {
+  position: relative;
+}
+
+.btn-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+.btn-style {
+  background-color: #551b54;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #551b54;
+  border: 2px solid #551b54;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+

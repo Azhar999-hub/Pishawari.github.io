@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        window.onload = function () {
+            document.getElementById("loader-container").style.display = 'none';
+            document.getElementById("content").style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="loader-container">
+        <img src="../images/loader.gif" alt="">
+    </div>
+
+    <!-- Navigaton bar start -->
+    <div id="content">
+        <nav class="navbar navbar-expand-lg sticky-top pt-1 pb-1" style="background-color: #83E1EF;">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-1" href="#"> <img class="img-fluid" src="../images/logo-icecream.png" alt=""
+                        width="50px" height="30px">
+                    <img src="../images/Capture2.PNG" class="img-fluid" alt="" width="250px" height="60px"> </a>
+                <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-3  mb-lg-0 link">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/food.html">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item cart">
+                            <a class="nav-link" href="../pages/order.html">Order</a>
+                        </li>
+                        <a href="../pages/signUp.html"
+                            class="btn btn-primary rounded-pill px-4 pt-1 fs-5 ms-3 text-decoration-none"> Sign Up
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigaton bar End -->
+
+        <!-- about section starts  -->
+        <div id="about">
+            <div class="container my-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="../images/about-image.jpg" width="100%">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="title">WELCOME TO OUR RESTURANT</h3>
+                        <h1 class="about-heading">Pishawari Ice Cream</h2>
+
+                            <p id="show-para">
+                                <b>Peshawari Ice Cream</b> is one of topest ice cream in Pakistan, We have all variety
+                                of
+                                ice cream
+                                flavours, fresh juices, milk shakes and lemonades.
+                            </p>
+                            <button onclick="readMore()" class="button">Read More</button>
+
+
+
+                            <div class="row text-center">
+                                <div class="col m-2 p-2 bg-light border border-dark">
+                                    <img src="../images/about-icon-1.png" alt="">
+                                    <h5>Quality Foods</h5>
+                                </div>
+                                <div class="col m-2 p-2 bg-light border border-dark">
+                                    <img src="../images/about-icon-2.png" alt="">
+                                    <h5>Food & Drinks</h5>
+                                </div>
+                                <div class="col m-2 p-2 bg-light border border-dark">
+                                    <img src="../images/about-icon-3.png" alt="">
+                                    <h5>Expert Chefs</h5>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- about section ends -->
+
+
+        <!-- Footer section start -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row text-white  text-center">
+                    <div class="col p-5 "><i class="fa-solid fa-clock fs-1 pb-3 footerIcons"></i>
+                        <h4>Opening Hours</h4>
+                        <p>07:00am to 10:00pm</p>
+                    </div>
+                    <div class="col p-5"><i class="fa-solid fa-square-phone fs-1 pb-3 footerIcons"></i>
+                        <h4>Phone Number</h4>
+                        <p>03332836183</p>
+                    </div>
+                    <div class="col p-5"><i class="fa-solid fa-square-envelope fs-1 pb-3 footerIcons"></i>
+                        <h4>Email Address</h4>
+                        <p>uzairzafar938@gmail.com</p>
+                    </div>
+                    <div class="col p-5"><i class="fa-solid fa-map fs-1 pb-3 footerIcons"></i>
+                        <h4>Address</h4>
+                        <p>R3WF+838, Street Number 23, Azam Basti Karachi, Karachi City, Sindh</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="https://www.facebook.com/AzamBastiOnline/posts/peshawari-ice-cream-100-feet-road-menu-pricec-azam-basti-online/344227645756779/ "
+                            target="_blank"><i class="fa-brands fa-square-facebook fs-1  ps-2 footerIcons"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram fs-1  ps-2 footerIcons"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter fs-1  ps-2 footerIcons"></i></a>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <hr
+                        style="height:3px; width: 100%; border-width:0; color:rgb(151, 205, 63);; background-color:rgb(151, 205, 63);">
+                </div>
+                <div class="row text-center text-white">
+                    <h5 class="display-6 footerIcons">Created By Azhar Zafar | JAWAN PAKISTAN</h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<!-- Footer section end -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+<script type="module" src="../js/app.js"></script>
+
+
+
+
+
+</body>
+
+</html>
